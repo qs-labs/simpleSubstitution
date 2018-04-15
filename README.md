@@ -14,7 +14,13 @@ For example, if the user key input was "CIPHER EXAMPLE"...
 This cipher alphabet is then used to encrypt text. For example, if the user input was "ENCRYPTION", the encrypted output would be 
 "EVPQDTNMUV".
 To visualize this, consider the two alphabets aligned:
+
 C I P H E R X A M L Z Y W V U T S Q O N K J G F D B
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+A.) How to use
+To create the 'cipher alphabet', call: SimpleSubstitution obj = new SimpleSubstitution(String key_phrase_input);
+To encrypt / decrypt based on this 'cipher alphabet', call: obj.translate(String message_input, boolean type); NOTE: 'false' indicates
+encryption, 'true' decryption
 
 
