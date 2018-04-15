@@ -11,14 +11,18 @@ This cipher alphabet is then used to encrypt text. For example, if the user inpu
 "EVPQDTNMUV".
 To visualize this, consider the two alphabets aligned:
 
-1. C I P H E R X A M L Z Y W V U T S Q O N K J G F D B
-2. A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+C I P H E R X A M L Z Y W V U T S Q O N K J G F D B
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 A.) How to use
-  1. To create the 'cipher alphabet', call: SimpleSubstitution obj = new SimpleSubstitution(String key_phrase_input);
-  2. To encrypt / decrypt based on this 'cipher alphabet', call: obj.translate(String message_input, boolean type); NOTE: 'false' indicates encryption, 'true' decryption
+
+To create the 'cipher alphabet', call: SimpleSubstitution obj = new SimpleSubstitution(String key_phrase_input);
+
+To encrypt / decrypt based on this 'cipher alphabet', call: obj.translate(String message_input, boolean type); NOTE: 'false' indicates encryption, 'true' decryption
 
 B.) Implementation
+
   This project has been optimized to scale with user input. This is accomplished via QuickSort, which provides a predictable order of 
   characters upon interaction.
 
