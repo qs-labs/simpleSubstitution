@@ -18,4 +18,7 @@ A.) How to use
   1. To create the 'cipher alphabet', call: SimpleSubstitution obj = new SimpleSubstitution(String key_phrase_input);
   2. To encrypt / decrypt based on this 'cipher alphabet', call: obj.translate(String message_input, boolean type); NOTE: 'false' indicates encryption, 'true' decryption
 
+B.) Implementation
+  This project has been optimized to scale with user input. This is accomplished via QuickSort, which provides a predictable order of 
+  characters upon interaction.
 
